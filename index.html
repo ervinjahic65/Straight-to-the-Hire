@@ -142,7 +142,7 @@
                             <div class="fixed-gap check-list MuiBox-root css-5s7oij">
                                 <p>We're making global team management so easy, businesses don't need to think twice. Whether you want to hire contractors around the world — {Company} makes the whole process automatic and simple (while keeping you compliant).</p>
                             </div>
-                            <div class="MuiBox-root css-wsfch7"><button type="button" class="css-1ray8rw">Book a demo</button></div>
+                            <div class="MuiBox-root css-wsfch7"><button type="button" class="css-1ray8rw" onclick="scrollToForm()">Book a demo</button></div>
                         </div>
                         <div class="MuiBox-root css-gqxhsp"><img alt="Image" loading="lazy" width="1440" height="1440" decoding="async" data-nimg="1" class="css-ducv57" style="color:transparent;max-width:1440px" src="files/Contractor_Photo_c6914964a2.webp"></div>
                     </div>
@@ -207,7 +207,7 @@
                                     <li>Remain compliant with GDPR and global privacy laws by signing a Data Processing Agreenment in seconds</li>
                                 </ul>
                             </div>
-                            <div class="MuiBox-root css-wsfch7"><button type="button" class="css-1ray8rw">Book a demo</button></div>
+                            <div class="MuiBox-root css-wsfch7"><button type="button" class="css-1ray8rw" onclick="scrollToForm()">Book a demo</button></div>
                         </div>
                         <div class="MuiBox-root css-gqxhsp"><img alt="Image" loading="lazy" width="720" height="720" decoding="async" data-nimg="1" class="css-ducv57" style="color:transparent;max-width:720px" src="files/Global_Payroll_67183a66a4.png"></div>
                     </div>
@@ -229,7 +229,7 @@
                                     <li>Your team will save on fees and exchange rates</li>
                                 </ul>
                             </div>
-                            <div class="MuiBox-root css-wsfch7"><button type="button" class="css-1ray8rw">Book a demo</button></div>
+                            <div class="MuiBox-root css-wsfch7"><button type="button" class="css-1ray8rw" onclick="scrollToForm()">Book a demo</button></div>
                         </div>
                         <div class="MuiBox-root css-gqxhsp"><img alt="Image" loading="lazy" width="1440" height="1440" decoding="async" data-nimg="1" class="css-ducv57" style="color:transparent;max-width:1440px" src="files/media_employee_experience_b719839596.webp"></div>
                     </div>
@@ -287,7 +287,7 @@
                                     <p class="MuiTypography-root MuiTypography-body1 font-feature-1 css-1yq4r3u">different countries</p>
                                 </div>
                             </div>
-                            <button type="button" class="css-vasrsn">Book a demo</button>
+                            <button type="button" class="css-vasrsn" onclick="scrollToForm()">Book a demo</button>
                         </div>
                     </div>
                 </div>
@@ -386,7 +386,7 @@
                             <h5 class="MuiTypography-root MuiTypography-h5 font-feature-2 css-c2j8ei">Eliminate manual work with {Company} integrations and API</h5>
                             <p class="MuiTypography-root MuiTypography-body1 font-feature-1 css-1u7lszl">Connect {Company} to any tool in your tech stack to eliminate error-prone data entry, automate the  entire worker lifecycle, and keep your tools up-to-date and synced.</p>
                         </div>
-                        <a type="button" class="css-wa8utn" href="#form">
+                        <a type="button" class="css-wa8utn" href="#request-a-demo-v2">
                             Book a demo
                             <div class="cta-icon css-1e5u1e9">
                                 <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowForwardIcon">
@@ -409,7 +409,7 @@
                             <div class="fixed-gap check-list MuiBox-root css-3prdlo">
                                 <p>We maintain the highest data protection and security standards. Plus, our custom permissions and approval settings ensure the right people get access to what they're supposed to.</p>
                             </div>
-                            <button type="button" class="css-vasrsn">Book a demo</button>
+                            <button type="button" class="css-vasrsn" onclick="scrollToForm()">Book a demo</button>
                         </div>
                         <div class="MuiBox-root css-1swynm7">
                             <div class="MuiBox-root css-vdpaok">
@@ -530,7 +530,7 @@
                                 <p class="MuiTypography-root MuiTypography-body1 css-1rdwvk5"></p>
                             </div>
                         </div>
-                        <div class="MuiBox-root css-74zl7b"><button type="button" class="css-18kphx1">Book a demo</button></div>
+                        <div class="MuiBox-root css-74zl7b"><button type="button" class="css-18kphx1" onclick="scrollToForm()">Book a demo</button></div>
                     </div>
                 </div>
                 <div class="MuiBox-root css-uez4vb">
@@ -568,5 +568,16 @@
             </div>
             <!--/$-->
         </main>
+        <script>
+            function scrollToForm() {
+                // Get the form element by its ID
+                const form = document.getElementById('request-a-demo-v2');
+                
+                // Scroll to the form element smoothly
+                form.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        </script>        
     </body>
 </html>
