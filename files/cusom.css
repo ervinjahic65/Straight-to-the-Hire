@@ -396,14 +396,7 @@
         .css-13o7eu2{display:block;}
         .css-14891ef{stroke:currentColor;stroke-dasharray:80px,200px;stroke-dashoffset:0;-webkit-animation:animation-1p2h4ri 1.4s ease-in-out infinite;animation:animation-1p2h4ri 1.4s ease-in-out infinite;}@-webkit-keyframes animation-1p2h4ri{0%{stroke-dasharray:1px,200px;stroke-dashoffset:0;}50%{stroke-dasharray:100px,200px;stroke-dashoffset:-15px;}100%{stroke-dasharray:100px,200px;stroke-dashoffset:-125px;}}@keyframes animation-1p2h4ri{0%{stroke-dasharray:1px,200px;stroke-dashoffset:0;}50%{stroke-dasharray:100px,200px;stroke-dashoffset:-15px;}100%{stroke-dasharray:100px,200px;stroke-dashoffset:-125px;}}
 
-        @font-face {
-            font-family: 'BagossExtended';
-            src: url('//res.cloudinary.com/spiralyze/raw/upload/FONTS/Bagoss/Extended/BagossExtended-SemiBold.otf');
-            }
-            @font-face {
-            font-family: 'BagossNew';
-            src: url('//res.cloudinary.com/spiralyze/raw/upload/FONTS/Bagoss/Standard/BagossStandard-Medium.otf');
-            }
+            
             body.deel_4018 .pricing{
             background: #FFFBF5;
             padding: 128px 0;
